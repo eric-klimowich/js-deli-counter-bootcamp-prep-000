@@ -15,7 +15,7 @@ function currentLine(katzDeliLine) {
   if (katzDeliLine === 0) {
     return 'The line is currently empty.'
   }
-  var order = `The line is currently: 1. `;
+  var order = `The line is currently: 1. ${katzDeliLine[0]}`;
   for (var i = 1; i < katzDeliLine.length; i++) {
     order += `, ${i + 1}. ${katzDeliLine[i]}`
   }
