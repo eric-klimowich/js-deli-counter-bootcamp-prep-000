@@ -10,3 +10,7 @@ function nowServing(katzDeliLine) {
   nowServing = katzDeliLine.shift();
   return `Currently serving ${nowServing}.`;
 }
+
+function currentLine(katzDeliLine) {
+  
+}
