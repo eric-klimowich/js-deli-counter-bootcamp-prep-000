@@ -17,7 +17,7 @@ function currentLine(katzDeliLine) {
   }
   var order = `The line is currently: `;
   for (var i = 0; i < katzDeliLine.length; i++) {
-    order += `, ${i + 1}. ${katzDeliLine[i]}`
+    order += `${i + 1}. ${katzDeliLine[i]}`
   }
   return order;
 }
